@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.0
+### Added
+- [Unflow] Custom fonts
+- [UnflowUI] Theming
+- [UnflowUI] Long form content
+
 ## 1.0.2
 ### Fixed
 - [Unflow UI] Make Jetpack Compose UI an API dependency to fix adding Unflow views in XML layouts
