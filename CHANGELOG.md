@@ -1,5 +1,17 @@
 # Change Log
 
+## 1.2.0
+### Added
+- [Unflow] Event tracking
+- [Unflow] Automatically triggered screens
+- [Unflow] Screen ordering
+- [UnflowUI] Emoji / Star rating
+- [UnflowUI] Video player
+- [UnflowUI] Bottom modal presentation style
+
+### Fixed
+- [Unflow] Make openScreen throwing
+
 ## 1.1.0
 ### Added
 - [Unflow] Custom fonts
