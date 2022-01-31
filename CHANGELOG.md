@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.3.0
+### Added
+- [Unflow] Optionally show App Store review modal
+- [UnflowUI] Video player autoplay toggle
+- [UnflowUI] Customizable button radius
+
 ## 1.2.0
 ### Added
 - [Unflow] Event tracking
@@ -8,7 +14,6 @@
 - [UnflowUI] Emoji / Star rating
 - [UnflowUI] Video player
 - [UnflowUI] Bottom modal presentation style
-
 ### Fixed
 - [Unflow] Make openScreen throwing
 
