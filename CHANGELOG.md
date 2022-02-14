@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.4.0
+### Added
+- [Unflow] Persistent device ID tracking for "anonymous" users
+- [UnflowUI] Add native share modal support from buttons
+
 ## 1.3.0
 ### Added
 - [Unflow] Optionally show App Store review modal
