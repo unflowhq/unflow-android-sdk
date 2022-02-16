@@ -9,14 +9,14 @@ class UnflowComposeApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
-        val unflow = UnflowSdk.initialize(
-            context = this,
+        val client = UnflowSdk.initialize(
+            application = this,
             config = UnflowSdk.Config(
                 apiKey = "<YOUR API KEY HERE>",
                 enableLogging = false
-            )
+            ),
         )
 
-        unflow.sync()
+        client.sync()
     }
 }

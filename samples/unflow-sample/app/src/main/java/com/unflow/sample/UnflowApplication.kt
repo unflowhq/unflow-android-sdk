@@ -20,7 +20,7 @@ class UnflowApplication : Application() {
         }
 
         val unflow = UnflowSdk.initialize(
-            context = this,
+            application = this,
             config = UnflowSdk.Config("<YOUR_API_KEY_HERE>"),
             analyticsListener = unflowAnalyticsListener
         )
