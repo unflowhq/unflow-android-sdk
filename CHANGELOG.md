@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.5.1
+### Added
+- [UnflowUI] New screen layouts
+- [UnflowUI] Custom openers
+- [Unflow] Performance improvements
+
 ## 1.4.0
 ### Added
 - [Unflow] Persistent device ID tracking for "anonymous" users
