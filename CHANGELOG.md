@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.6.0
+### Added
+- [Unflow] Reduced minSdkVersion to 21
+- [Unflow] getOpeners function
+- [Unflow] Reintroduce network logging
+- [UnflowUI] Improved analytics listener & events
+
 ## 1.5.1
 ### Added
 - [UnflowUI] New screen layouts
