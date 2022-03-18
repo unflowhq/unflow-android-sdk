@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.6.1
+### Fixed
+- [UnflowUI] Provide public Opener model for consumption in custom OpenerView
+
 ## 1.6.0
 ### Added
 - [Unflow] Reduced minSdkVersion to 21
