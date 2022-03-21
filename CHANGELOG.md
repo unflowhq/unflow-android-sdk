@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.6.2
+### Added
+- [Unflow] Improved error handling
+- [Unflow] Upgraded dependencies
+
 ## 1.6.1
 ### Fixed
 - [UnflowUI] Provide public Opener model for consumption in custom OpenerView
