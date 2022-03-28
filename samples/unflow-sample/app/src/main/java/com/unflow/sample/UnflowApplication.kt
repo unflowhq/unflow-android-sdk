@@ -3,7 +3,7 @@ package com.unflow.sample
 import android.app.Application
 import android.util.Log
 import com.unflow.analytics.AnalyticsListener
-import com.unflow.analytics.UnflowEvent
+import com.unflow.analytics.domain.model.UnflowEvent
 import com.unflow.androidsdk.UnflowSdk
 
 @Suppress("unused")
@@ -20,7 +20,7 @@ class UnflowApplication : Application() {
         }
 
         val unflow = UnflowSdk.initialize(
-            context = this,
+            application = this,
             config = UnflowSdk.Config("<YOUR_API_KEY_HERE>"),
             analyticsListener = unflowAnalyticsListener
         )
