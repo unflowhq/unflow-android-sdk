@@ -16,7 +16,7 @@ public class UnflowSampleApplication extends Application {
 
         // Set the user id – usually some unique id that you may have for your users
         unflow.setUserId("user_kd5689");
-        
+
         // Sync Unflow content
         unflow.sync();
     }

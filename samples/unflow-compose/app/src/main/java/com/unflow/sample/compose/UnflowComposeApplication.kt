@@ -28,6 +28,9 @@ class UnflowComposeApplication : Application() {
             analyticsListener = unflowAnalyticsListener
         )
 
+        // Usually some unique id that you may have for your users
+        unflow.setUserId("user_kd5689")
+
         unflow.sync()
     }
 }
