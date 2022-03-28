@@ -10,7 +10,7 @@ class UnflowComposeApplication : Application() {
         super.onCreate()
 
         val unflow = UnflowSdk.initialize(
-            context = this,
+            application = this,
             config = UnflowSdk.Config(
                 apiKey = "<YOUR API KEY HERE>",
                 enableLogging = false
