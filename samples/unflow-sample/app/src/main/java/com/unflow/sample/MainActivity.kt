@@ -15,8 +15,8 @@ class MainActivity : AppCompatActivity() {
         // See layout for how to add an OpenerView
         setContentView(R.layout.activity_main)
 
-        // We can customise the layout of the openers completely – here we
-        // take just the first three and put them in a vertical list
+        // We can also customise the look and feel of opener items and the layout of
+        // the openers – here we take just the first three and put them in a vertical list.
         val customOpenerAdapter = CustomOpenerAdapter()
         findViewById<RecyclerView>(R.id.customOpenerLayout).apply {
             layoutManager = LinearLayoutManager(this@MainActivity)

@@ -25,7 +25,7 @@ class CustomOpenerAdapter : RecyclerView.Adapter<CustomOpenerAdapter.ViewHolder>
         var screenId: Long? = null
 
         init {
-            // Define click listener for the ViewHolder's View.
+            // Ensure we handle clicks – open an Unflow screen
             view.setOnClickListener {
                 screenId?.let {
                     UnflowSdk.client().openScreen(it)
@@ -35,6 +35,7 @@ class CustomOpenerAdapter : RecyclerView.Adapter<CustomOpenerAdapter.ViewHolder>
     }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ViewHolder {
+        // Inflate a custom opener item view
         val view = LayoutInflater
             .from(viewGroup.context)
             .inflate(R.layout.item_custom_opener, viewGroup, false)
