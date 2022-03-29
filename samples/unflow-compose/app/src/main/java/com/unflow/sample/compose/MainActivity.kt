@@ -43,19 +43,13 @@ class MainActivity : ComponentActivity() {
                             modifier = Modifier.fillMaxSize(),
                             color = MaterialTheme.colors.background
                         ) {
-                            Column {
-                                Text(
-                                    text = "Welcome to Unflow!",
-                                    modifier = Modifier
-                                        .padding(24.dp)
-                                        .align(CenterHorizontally),
-                                    style = MaterialTheme.typography.h6
-                                )
-
+                            Column(Modifier.padding(vertical = 16.dp)) {
+                                Header("Opener")
                                 // Getting started is as simple as placing the Opener composable
                                 // wherever you'd like to display the Unflow opener banner(s)
                                 Opener()
 
+                                Header("Custom opener item")
                                 // Here's an example of how you can customise opener items
                                 Opener(
                                     itemContent = { state ->
@@ -66,6 +60,7 @@ class MainActivity : ComponentActivity() {
                                     }
                                 )
 
+                                Header("Custom opener layout")
                                 // Or customise the layout of the openers completely – here we
                                 // take just the first two and put them in a vertical list
                                 val openerState = rememberOpenerState()
@@ -96,6 +91,18 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+}
+
+@Composable
+private fun Header(
+    text: String,
+    modifier: Modifier = Modifier
+) {
+    Text(
+        text = text,
+        modifier = modifier.padding(horizontal = 16.dp, vertical = 8.dp),
+        style = MaterialTheme.typography.subtitle2
+    )
 }
 
 @Composable
