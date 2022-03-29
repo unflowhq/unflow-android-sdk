@@ -12,7 +12,11 @@ public class UnflowSampleApplication extends Application {
 
         // Initialize Unflow SDK
         UnflowSdk.Config unflowConfig = new UnflowSdk.Config("<YOUR_API_KEY>", false);
-        UnflowSdk unflow = UnflowSdk.Companion.initialize(this, unflowConfig, null);
+        UnflowSdk unflow = UnflowSdk.Companion.initialize(this, unflowConfig);
+
+        // Set the user id – usually some unique id that you may have for your users
+        unflow.setUserId("user_kd5689");
+
         // Sync Unflow content
         unflow.sync();
     }

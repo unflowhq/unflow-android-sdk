@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.unflow.sample.java.FirstFragment"
+        android:name="com.unflow.sample.java.ContentFragment"
         android:label="@string/app_name"
-        tools:layout="@layout/fragment_first">
+        tools:layout="@layout/fragment_content">
     </fragment>
 
 </navigation>
