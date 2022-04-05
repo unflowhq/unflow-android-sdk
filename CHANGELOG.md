@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.6.3
+### Added
+- [UnflowUI] Gif support
+### Fixed
+- [UnflowUI] Bottom nav wrong color in dark mode
+- [Unflow] Issues integrating on Java
+
 ## 1.6.2
 ### Added
 - [Unflow] Improved error handling
