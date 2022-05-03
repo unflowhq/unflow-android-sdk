@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.7.0
+### Added
+- [Unflow] Proguard rules
+= [Unflow] Ability to reset Unflow by calling initialize again
+### Fixed
+- [UnflowUI] Close screen after rating block clicked
+
 ## 1.6.3
 ### Added
 - [UnflowUI] Gif support
