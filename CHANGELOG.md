@@ -1,9 +1,11 @@
 # Change Log
 
+## 1.7.1
+
 ## 1.7.0
 ### Added
 - [Unflow] Proguard rules
-= [Unflow] Ability to reset Unflow by calling initialize again
+- [Unflow] Ability to reset Unflow by calling initialize again
 ### Fixed
 - [UnflowUI] Close screen after rating block clicked
 
