@@ -1,5 +1,15 @@
 # Change Log
 
+## 1.8.0
+### Added
+- [Unflow] Push notification support
+- [Unflow] Include block id in analytics listener events
+### Fixed
+- [Unflow] Correctly track occurredAt time for events
+- [Unflow] Update networking library to prevent crash on older Android versions
+- [Unflow] Prevent crashes by providing Proguard rules
+- [UnflowUI] Propegate color schemes to all screen elements
+
 ## 1.7.1
 
 ## 1.7.0
