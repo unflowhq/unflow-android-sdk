@@ -1,5 +1,13 @@
 # Change Log
 
+## 1.9.0
+### Added
+- [UnflowUI] Stories
+### Fixes
+- [Unflow] Non-crashing backwards migrations
+- [UnflowUI] Prevent loading of page beyond index of carousel
+- [UnflowUI] Fix multiple screens opening on slower devices
+
 ## 1.8.0
 ### Added
 - [Unflow] Push notification support
