@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.9.1
+### Added
+- [Unflow] Analytics events for Stories
+### Fixes
+- [Unflow] Fix implicit permission requests by setting minimumSDKVersion in all modules
+- [UnflowUI] Better error handling for videos
+
 ## 1.9.0
 ### Added
 - [UnflowUI] Stories
