@@ -1,5 +1,16 @@
 # Change Log
 
+## 1.9.3
+### Changes
+- [Unflow] Reverted the following dependencies to latest stable versions to improve product stability and compatibility.
+  - Compose `1.1.1`
+  - Ktor `2.0.3`
+  - Koin `3.1.6`
+  - AndroidX Fragments `1.5.0`
+  - CameraX `1.1.0`
+### Fixes
+- [Unflow] Made internal types related to networking internal again.
+
 ## 1.9.1
 ### Added
 - [Unflow] Analytics events for Stories
