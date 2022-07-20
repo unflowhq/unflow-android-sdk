@@ -23,6 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.rememberImagePainter
 import com.unflow.androidsdk.UnflowSdk
+import com.unflow.androidsdk.ui.space.Spaces
 import com.unflow.androidsdk.ui.opener.Opener
 import com.unflow.androidsdk.ui.opener.OpenerItemState
 import com.unflow.androidsdk.ui.opener.OpenerState
@@ -48,6 +49,17 @@ class MainActivity : ComponentActivity() {
                                 // Getting started is as simple as placing the Opener composable
                                 // wherever you'd like to display the Unflow opener banner(s)
                                 Opener()
+
+
+                                Header("Spaces")
+                                // If you want to show multiple spaces, you can do so easily with the Spaces composable
+                                // We've disabled filtering default so it'll also show the content from your default banner.
+                                // We also chose to override the default font with a custom one from our app.
+                                Spaces(
+                                    filterDefault = false,
+                                    showHeaders = true,
+                                    headerTextStyle = MaterialTheme.typography.subtitle2
+                                )
 
                                 Header("Custom opener item")
                                 // Here's an example of how you can customise opener items
