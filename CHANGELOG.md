@@ -1,5 +1,32 @@
 # Change Log
 
+## 1.11.0
+### Changes
+- Lowered the amount of network usage.
+- Allowed for more than just `Map<String,String>` for user attributes.
+
+### Added
+- Added the question block to get detailed feedback, or ask any question you wish.
+- Added an optional privacy mode to disable most events.
+- Pause function to temporarily stop Unflow from presenting screens.
+ 
+### Fixed
+- Flows will no longer emit repeated values
+
+## 1.10.0
+
+### Changes
+- References to `subscriptionId` have been renamed to `spaceKey` to avoid confusion.
+
+### Added
+- You can now fetch spaces from the SDK. See `UnflowSdk.spaces()` for more.
+- There's a new `Spaces` composable that shows a stack of your spaces.
+- Another `Spaces` composable has been added that simply provides you with a list of spaces.
+- Tracking an event with a date inside the map will now successfully send the date to the server in miliseconds since 1970.
+
+### Fixed
+- Ensured that compose resolves to 1.1.1.
+  
 ## 1.9.3
 ### Changes
 - [Unflow] Reverted the following dependencies to latest stable versions to improve product stability and compatibility.
