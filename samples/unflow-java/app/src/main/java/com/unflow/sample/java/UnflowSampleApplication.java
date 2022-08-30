@@ -11,7 +11,10 @@ public class UnflowSampleApplication extends Application {
         super.onCreate();
 
         // Initialize Unflow SDK
-        UnflowSdk.Config unflowConfig = new UnflowSdk.Config("<YOUR_API_KEY>", false);
+        UnflowSdk.Config unflowConfig = new UnflowSdk.Config(
+                "<YOUR-API-KEY>",
+                false
+        );
         UnflowSdk unflow = UnflowSdk.Companion.initialize(this, unflowConfig);
 
         // Set the user id – usually some unique id that you may have for your users
