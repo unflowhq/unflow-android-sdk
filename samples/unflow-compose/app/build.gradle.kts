@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    compileSdk = 31
+    compileSdk = 32
 
     defaultConfig {
         applicationId = "com.unflow.sample.compose"
@@ -39,7 +39,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = rootProject.extra["compose_version"] as String
+        kotlinCompilerExtensionVersion = rootProject.extra["compose_compiler_version"] as String
     }
     packagingOptions {
         resources {
@@ -49,7 +49,7 @@ android {
 }
 
 dependencies {
-    implementation("com.unflow:unflow-ui:1.11.0")
+    implementation("com.unflow:unflow-ui:1.12.0")
 
     implementation("androidx.compose.ui:ui:${rootProject.extra["compose_version"]}")
     implementation("androidx.compose.material:material:${rootProject.extra["compose_version"]}")
