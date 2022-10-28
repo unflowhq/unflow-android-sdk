@@ -1,5 +1,36 @@
 # Change Log
 
+## 1.13.0
+### Changes
+- Images will now display with a maximum height, ensuring that on smaller devices the experience is improved without compromising on larger devices.
+
+### Added
+- The close button can now be hidden provided there's some other way to close the screen.
+- Support for the next/done button text to be changeable.
+- You can provide your locale and language to Unflow in preparation for a future feature.
+
+### Fixed
+- Status bar padding will now be correctly applied.
+
+## 1.12.1
+### Changes
+- The events for the user entering text will now only send when the page containing the text transitions, rather than perodically as they type.
+
+### Added
+- A new standalone free text entry that doesn't require an other option.
+
+### Fixed
+- The order of the events fired on screen dismiss will now be in the correct order.
+
+## 1.12.0
+### Changes
+- We've bumped our versions up to use a newer stable compose, `1.2.1`. You may have to increase your Kotlin version and minimum compile sdk as a result of this change.
+- The event for question selections will include the strings for each selection, not just the identifiers.
+- The rating block will now not always close the screen. It will decide if it should progress the container or close depending on its location.
+
+### Added
+- Support for the new free text option in question blocks.
+  
 ## 1.11.0
 ### Changes
 - Lowered the amount of network usage.
