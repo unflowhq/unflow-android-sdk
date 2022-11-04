@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.13.1
+### Fixed
+- Modals with small content will now self-size correctly.
+
 ## 1.13.0
 ### Changes
 - Images will now display with a maximum height, ensuring that on smaller devices the experience is improved without compromising on larger devices.
