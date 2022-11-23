@@ -1,5 +1,19 @@
 # Change Log
 
+## 1.14.0
+### Changes
+- When you have a page with a single select question block, it will no longer automatically close after selection.
+- When you have a carousel with a single select question block, it will no longer automatically push the next page after selection.
+- The pause function will now also prevent screens from push notifications from showing. When you pause the SDK and a user opens a push, it will only show the screen after you've called resume.
+- When a user selects a button with a deeplink, we'll close our actvity for you.
+
+### Added
+- You can now configure if a question requires a response or not.
+
+### Fixed
+- We've improved the layouts for our visual screens to hug most of the time, and flex when it would look better.
+- When closing a page via a link, the animation has been corrected.
+
 ## 1.13.1
 ### Fixed
 - Modals with small content will now self-size correctly.
