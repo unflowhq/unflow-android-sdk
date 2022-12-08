@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.14.1
+### Changes
+- Article images are now 4/3 always, regardless of the content of the image
+
 ## 1.14.0
 ### Changes
 - When you have a page with a single select question block, it will no longer automatically close after selection.
