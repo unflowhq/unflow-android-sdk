@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.14.2
+### Changes
+- We've continued to improve the images on articles, specifically on smaller devices.
+
 ## 1.14.1
 ### Changes
 - Article images are now 4/3 always, regardless of the content of the image
