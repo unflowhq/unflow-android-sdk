@@ -49,7 +49,7 @@ android {
 }
 
 dependencies {
-    implementation("com.unflow:unflow-ui:1.14.2")
+    implementation("com.unflow:unflow-ui:1.15.0")
 
     implementation("androidx.compose.ui:ui:${rootProject.extra["compose_version"]}")
     implementation("androidx.compose.material:material:${rootProject.extra["compose_version"]}")

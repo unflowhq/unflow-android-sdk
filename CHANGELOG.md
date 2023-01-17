@@ -1,5 +1,15 @@
 # Change Log
 
+## 1.15.0
+### Added
+- You can use `clearUserSession` to remove the users attributes, and clear their ID.
+  
+### Changes
+- `UnflowAnalyticsListener` has a new required function to accept updates for attributes.
+
+### Fixes
+- If you provide a push notification to us, we'll not show the resulting pop up if the SDK is paused. It will only show when you call resume.
+
 ## 1.14.2
 ### Changes
 - We've continued to improve the images on articles, specifically on smaller devices.
