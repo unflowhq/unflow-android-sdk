@@ -17,6 +17,12 @@ class UnflowApplication : Application() {
                 // Do something with the events. e.g. Send to your existing analytics tool
                 Log.d("Unflow-Analytics", "$event")
             }
+            override fun onAttributesUpdate(attributes: Map<String, Any?>) {
+                // Do something with these, like store them in your app
+                attributes.forEach {
+                    Log.d("Unflow-Analytics", "${it.key} ${it.value}")
+                }
+            }
         }
 
         val unflow = UnflowSdk.initialize(
