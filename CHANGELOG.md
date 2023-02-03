@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.15.1
+### Fixes
+- Close actions will now behave as expected in Flows.
+- Screens with their completion actions empty will now allow normal logic to take place.
+- Stops a bug where blocks could sometimes be re-ordered.
+- When you use the `pause` function, and provide a push notification, it will now only show the content when you call resume.
+
 ## 1.15.0
 ### Added
 - You can use `clearUserSession` to remove the users attributes, and clear their ID.
